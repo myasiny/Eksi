@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        JFrame bg = new JFrame("eksi sozluk - kutsal bilgi kaynagi");
+        JFrame bg = new JFrame();
         Content fg = new Content(bg);
         fg.setVisible(true);
         bg.setVisible(false);
